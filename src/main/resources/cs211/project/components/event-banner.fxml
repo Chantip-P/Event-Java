@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bannerAnchorPane" onMouseClicked="#onBannerClick" prefWidth="300.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.components.EventBannerController">
+   <children>
+      <VBox prefWidth="300.0">
+         <children>
+            <ImageView fx:id="imageBanner" fitHeight="100.0" fitWidth="300.0" pickOnBounds="true" />
+            <VBox prefWidth="300.0">
+               <children>
+                  <HBox prefHeight="20.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="startDateLabel" styleClass="primary-text" text="MM/DD/YYYY" textFill="#222831" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="startTimeLabel" styleClass="primary-text" text="HH:MM" textFill="#222831" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label styleClass="primary-text" text=" - ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="endDateLabel" styleClass="primary-text" text="MM/DD/YYYY" textFill="#222831" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="endTimeLabel" styleClass="primary-text" text="HH:MM" textFill="#222831" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="210.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.23399353027344" minWidth="10.0" prefWidth="70.50398254394531" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <HBox alignment="TOP_RIGHT" GridPane.columnIndex="1">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <Label fx:id="eventVisibilityLabel" alignment="TOP_RIGHT" contentDisplay="CENTER" style="-fx-background-color: #096CDA;" text="DRAFT" textFill="#eeeeee">
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label fx:id="eventNameLabel" alignment="TOP_LEFT" styleClass="primary-text" text="eventNameLabel" textFill="#222831" wrapText="true">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <VBox>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <children>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="202.15475463867188" minWidth="10.0" prefWidth="202.15475463867188" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.60302734375" minWidth="10.0" prefWidth="78.51191202799481" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="1">
+                                 <children>
+                                    <Label fx:id="joinedParticipantLabel" styleClass="primary-text" text="YYY" />
+                                    <Label styleClass="primary-text" text="/" />
+                                    <Label fx:id="maxParticipantsLabel" styleClass="primary-text" text="XXX" textFill="#393e46" />
+                                    <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icon-participant.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                              <Label styleClass="primary-text" text="Participant Application" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="-5.0" />
+                           </padding>
+                        </GridPane>
+                        <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="participantStartDateLabel" styleClass="primary-text" text="MM/DD/YYYY" textFill="#222831" wrapText="true">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="participantStartTimeLabel" styleClass="primary-text" text="HH:MM" textFill="#222831" wrapText="true" />
+                              <Label styleClass="primary-text" text=" - " textFill="#222831" />
+                              <Label fx:id="participantEndDateLabel" styleClass="primary-text" text="MM/DD/YYYY" textFill="#222831" wrapText="true">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="participantEndTimeLabel" styleClass="primary-text" text="HH:MM" textFill="#222831" wrapText="true" />
+                           </children>
+                        </HBox>
+                        <GridPane>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="209.56543477376303" minWidth="10.0" prefWidth="166.0000203450521" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.89886474609375" minWidth="10.0" prefWidth="113.99997965494791" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" GridPane.columnIndex="1">
+                                 <children>
+                                    <Label fx:id="teamAvailabilityLabel" styleClass="primary-text" text="UNAVAILABLE" textFill="#222831" wrapText="true">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </Label>
+                                    <ImageView fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../images/icon-team-organizer.png" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets left="5.0" />
+                                       </HBox.margin>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                              <Label prefHeight="17.0" prefWidth="203.0" styleClass="primary-text" text="Organizer Team Application">
+                                 <font>
+                                    <Font name="System Bold" size="10.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="-5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </GridPane>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+   <styleClass>
+      <String fx:value="context-box" />
+      <String fx:value="banner" />
+   </styleClass>
+</AnchorPane>

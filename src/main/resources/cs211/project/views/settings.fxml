@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.SettingsController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="720.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="480.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane styleClass="primary-color" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="720.0" styleClass="primary-color">
+               <content>
+                  <VBox spacing="5.0" styleClass="primary-color">
+                     <children>
+                        <HBox spacing="450.0">
+                           <children>
+                              <Label styleClass="primary-text" text="Settings">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="30.0" />
+                           </padding>
+                        </HBox>
+                        <Label styleClass="primary-text" text="Edit Profile">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox spacing="20.0">
+                           <children>
+                              <Circle fx:id="profileCircle" fill="WHITE" radius="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                                 <HBox.margin>
+                                    <Insets left="40.0" />
+                                 </HBox.margin>
+                              </Circle>
+                              <VBox spacing="7.0">
+                                 <children>
+                                    <Label styleClass="primary-text" text="First Name">
+                                       <VBox.margin>
+                                          <Insets left="10.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox>
+                                       <VBox.margin>
+                                          <Insets left="20.0" />
+                                       </VBox.margin>
+                                       <children>
+                                          <TextField fx:id="firstNameTextField" onKeyPressed="#onSaveNameByPressEnter" prefHeight="26.0" prefWidth="380.0" styleClass="transparent" />
+                                       </children>
+                                       <styleClass>
+                                          <String fx:value="shadow" />
+                                          <String fx:value="wrap-box" />
+                                       </styleClass>
+                                    </HBox>
+                                    <Label styleClass="primary-text" text="Last Name">
+                                       <VBox.margin>
+                                          <Insets left="10.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox>
+                                       <VBox.margin>
+                                          <Insets left="20.0" />
+                                       </VBox.margin>
+                                       <children>
+                                          <TextField fx:id="lastNameTextField" onKeyPressed="#onSaveNameByPressEnter" prefHeight="26.0" prefWidth="380.0" styleClass="transparent" />
+                                       </children>
+                                       <styleClass>
+                                          <String fx:value="shadow" />
+                                          <String fx:value="wrap-box" />
+                                       </styleClass>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <opaqueInsets>
+                              <Insets bottom="10.0" />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <GridPane prefHeight="30.0" prefWidth="600.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="322.79998779296875" minWidth="10.0" prefWidth="310.40001220703124" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="310.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <HBox spacing="10.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#onChooseFileClick" styleClass="secondary-button" text="Choose file">
+                                       <HBox.margin>
+                                          <Insets left="70.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="TOP_RIGHT" GridPane.columnIndex="1">
+                                 <children>
+                                    <Label fx:id="errorNameLabel" minWidth="200.0" nodeOrientation="RIGHT_TO_LEFT" prefWidth="200.0" text="errorNameLabel" textAlignment="CENTER" textFill="RED">
+                                       <HBox.margin>
+                                          <Insets top="5.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Button alignment="CENTER" mnemonicParsing="false" onAction="#onSaveNameClick" prefWidth="55.0" styleClass="primary-button" text="Save" textAlignment="CENTER" textFill="#eeeeee">
+                                       <HBox.margin>
+                                          <Insets left="5.0" />
+                                       </HBox.margin>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </GridPane>
+                        <Separator>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="50.0" top="30.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label styleClass="primary-text" text="Change Password">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label styleClass="primary-text" text="Current password">
+                           <VBox.margin>
+                              <Insets left="55.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox prefHeight="26.0" prefWidth="556.0">
+                           <VBox.margin>
+                              <Insets left="45.0" right="15.0" />
+                           </VBox.margin>
+                           <children>
+                              <PasswordField fx:id="currentPasswordField" onKeyPressed="#onSavePasswordByPressEnter" prefHeight="26.0" prefWidth="560.0" styleClass="transparent" />
+                           </children>
+                           <styleClass>
+                              <String fx:value="shadow" />
+                              <String fx:value="wrap-box" />
+                           </styleClass>
+                        </HBox>
+                        <Label styleClass="primary-text" text="New password">
+                           <VBox.margin>
+                              <Insets left="55.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox>
+                           <VBox.margin>
+                              <Insets left="45.0" right="15.0" />
+                           </VBox.margin>
+                           <children>
+                              <PasswordField fx:id="newPasswordField" onKeyPressed="#onSavePasswordByPressEnter" prefHeight="26.0" prefWidth="560.0" styleClass="transparent" />
+                           </children>
+                           <styleClass>
+                              <String fx:value="shadow" />
+                              <String fx:value="wrap-box" />
+                           </styleClass>
+                        </HBox>
+                        <Label styleClass="primary-text" text="Confirm password">
+                           <VBox.margin>
+                              <Insets left="55.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <PasswordField fx:id="confirmPasswordField" onKeyPressed="#onSavePasswordByPressEnter" prefHeight="26.0" prefWidth="560.0" styleClass="transparent" />
+                           </children>
+                           <styleClass>
+                              <String fx:value="shadow" />
+                              <String fx:value="wrap-box" />
+                           </styleClass>
+                           <VBox.margin>
+                              <Insets left="45.0" right="15.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefWidth="595.0" spacing="10.0">
+                           <children>
+                              <Label fx:id="errorPasswordLabel" alignment="CENTER" contentDisplay="RIGHT" text="errorLabel" textAlignment="CENTER" textFill="RED" />
+                              <Button alignment="CENTER" mnemonicParsing="false" onAction="#onSavePasswordClick" prefWidth="55.0" styleClass="primary-button" text="Save" textFill="#eeeeee" />
+                           </children>
+                           <VBox.margin>
+                              <Insets right="15.0" top="10.0" />
+                           </VBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                        <Separator>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="50.0" top="30.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <Label styleClass="primary-text" text="Display Setting">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="40.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" spacing="10.0">
+                           <children>
+                              <VBox alignment="CENTER">
+                                 <children>
+                                    <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onThemeSwitchClick" prefHeight="40.0" prefWidth="40.0">
+                                       <padding>
+                                          <Insets top="-1.0" />
+                                       </padding>
+                                       <styleClass>
+                                          <String fx:value="wrap-box" />
+                                          <String fx:value="shadow" />
+                                       </styleClass>
+                                       <graphic>
+                                          <ImageView fx:id="themeSwitchImage" fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" styleClass="transparent">
+                                             <image>
+                                                <Image url="@../../../images/icon-dark-mode.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Label fx:id="themeLabel" alignment="CENTER" contentDisplay="CENTER" styleClass="primary-text" text="themeLabel">
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="67.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

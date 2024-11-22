@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.EditEventController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="720.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="480.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" styleClass="primary-color" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="540.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="160.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="pageTitleLabel" styleClass="primary-text" text="Edit Event: &lt;Event Name&gt;">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" spacing="10.0" GridPane.columnIndex="1">
+                     <children>
+                        <Button fx:id="publishButton" mnemonicParsing="false" onAction="#onPublishEventClick" styleClass="primary-button" text="Publish" textFill="#eeeeee" />
+                        <Button mnemonicParsing="false" onAction="#onSaveEventClick" styleClass="secondary-button" text="Save Data" />
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </GridPane>
+            <TabPane fx:id="tabPane" prefHeight="414.0" prefWidth="720.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="-fx-font-weight: bold;" text="General">
+                     <content>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" styleClass="transparent">
+                           <content>
+                              <VBox prefWidth="720.0" spacing="5.0" styleClass="primary-color">
+                                 <children>
+                                    <HBox alignment="BOTTOM_LEFT" spacing="10.0">
+                                       <children>
+                                          <ImageView fx:id="eventBannerImageView" fitHeight="100.0" fitWidth="300.0" pickOnBounds="true">
+                                             <image>
+                                                <Image url="@../../../images/banner-default.png" />
+                                             </image>
+                                          </ImageView>
+                                          <VBox alignment="BOTTOM_CENTER" spacing="10.0">
+                                             <children>
+                                                <Label alignment="TOP_LEFT" styleClass="primary-text" text="Recommended Size: 660x220" />
+                                                <Button mnemonicParsing="false" onAction="#onUploadImageClick" styleClass="primary-button" text="Upload Image" textFill="#eeeeee" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label prefWidth="120.0" styleClass="primary-text" text="Event Name" />
+                                          <HBox>
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                             <children>
+                                                <TextField fx:id="eventNameTextField" prefWidth="540.0" promptText="Enter Event Name" styleClass="transparent">
+                                                   <cursor>
+                                                      <Cursor fx:constant="DEFAULT" />
+                                                   </cursor>
+                                                </TextField>
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="10.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label prefWidth="120.0" styleClass="primary-text" text="Descriptions" />
+                                          <HBox>
+                                             <children>
+                                                <TextArea fx:id="descriptionTextArea" prefHeight="90.0" prefWidth="540.0" promptText="Enter Event Descriptions" styleClass="transparent" wrapText="true">
+                                                   <cursor>
+                                                      <Cursor fx:constant="DEFAULT" />
+                                                   </cursor>
+                                                </TextArea>
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label prefWidth="120.0" styleClass="primary-text" text="Start Date" />
+                                          <HBox>
+                                             <children>
+                                                <DatePicker fx:id="startDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                          <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <HBox>
+                                             <children>
+                                                <Spinner fx:id="startDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                          <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                          <HBox>
+                                             <children>
+                                                <Spinner fx:id="startDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label prefWidth="120.0" styleClass="primary-text" text="End Date" />
+                                          <HBox>
+                                             <children>
+                                                <DatePicker fx:id="endDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                          <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                             <HBox.margin>
+                                                <Insets />
+                                             </HBox.margin>
+                                          </Label>
+                                          <HBox>
+                                             <children>
+                                                <Spinner fx:id="endDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                          <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                          <HBox>
+                                             <children>
+                                                <Spinner fx:id="endDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                             </children>
+                                             <styleClass>
+                                                <String fx:value="wrap-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                                 </padding></VBox>
+                           </content>
+                        </ScrollPane>
+                     </content>
+                </Tab>
+                <Tab fx:id="participantsTab" style="-fx-font-weight: bold;" text="Participants">
+                     <content>
+                        <GridPane prefHeight="380.0" prefWidth="720.0" styleClass="primary-color">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="260.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="460.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="473.0">
+                                 <children>
+                                    <ListView fx:id="parListView" layoutX="14.0" layoutY="30.0" prefHeight="295.0" prefWidth="192.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+                                    <Button fx:id="parRemoveButton" mnemonicParsing="false" onAction="#onRemoveClick" styleClass="red-button" text="Remove" textFill="#eeeeee" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                 <children>
+                                    <VBox spacing="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <padding>
+                                          <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                                       </padding>
+                                       <children>
+                                          <Label styleClass="primary-text" text="Application Period">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Accept Start Date" />
+                                                <HBox>
+                                                   <children>
+                                                      <DatePicker fx:id="parStartDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="parStartDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="parStartDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Accept End Date" />
+                                                <HBox>
+                                                   <children>
+                                                      <DatePicker fx:id="parEndDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="parEndDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="parEndDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Current Participants:">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <Label fx:id="currParLabel" styleClass="primary-text" text="XX/YY" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Max Participants:" />
+                                                <HBox>
+                                                   <children>
+                                                      <TextField fx:id="maxParTextField" prefWidth="150.0" promptText="Enter Max Participants" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </content>
+                </Tab>
+                  <Tab fx:id="organizerTeamTab" style="-fx-font-weight: bold;" text="Organizer Teams">
+                     <content>
+                        <GridPane prefHeight="380.0" prefWidth="720.0" styleClass="primary-color">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="260.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="460.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="473.0">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefWidth="200.0">
+                                             <children>
+                                                <Label prefWidth="60.0" styleClass="primary-text" text="Team" />
+                                                <HBox>
+                                                   <children>
+                                                      <ChoiceBox fx:id="orgTeamChoiceBox" prefWidth="170.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <ListView fx:id="orgTeamMemberListView" />
+                                       </children>
+                                    </VBox>
+                                    <Button fx:id="orgTeamMemberRemoveButton" mnemonicParsing="false" onAction="#onRemoveClick" styleClass="red-button" text="Remove" textFill="#eeeeee" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                 <children>
+                                    <VBox spacing="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <padding>
+                                          <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                                       </padding>
+                                       <children>
+                                          <Label fx:id="addTeamLabel" styleClass="primary-text" text="Add Team">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Team Name" />
+                                                <HBox>
+                                                   <children>
+                                                      <TextField fx:id="teamNameTextField" prefWidth="150.0" promptText="Enter Team Name" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Accept Start Date" />
+                                                <HBox>
+                                                   <children>
+                                                      <DatePicker fx:id="orgStartDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="orgStartDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="orgStartDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Accept End Date" />
+                                                <HBox>
+                                                   <children>
+                                                      <DatePicker fx:id="orgEndDatePicker" editable="false" prefWidth="110.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="40.0" styleClass="primary-text" text="Time">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="orgEndDateHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="orgEndDateMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Current Members:">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <Label fx:id="currOrgTeamMemberLabel" styleClass="primary-text" text="XX/YY" />
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Max Members:" />
+                                                <HBox>
+                                                   <children>
+                                                      <TextField fx:id="maxTeamMembersTextField" prefWidth="150.0" promptText="Enter Max Members" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT">
+                                             <children>
+                                                <Button fx:id="addTeamButton" mnemonicParsing="false" onAction="#onAddTeamClick" styleClass="grey-button" text="Add" textFill="#eeeeee" />
+                                             </children>
+                                          </HBox>
+                                          <Pane fx:id="orgManageUserPane">
+                                             <children>
+                                                <Label styleClass="primary-text" text="Manage User">
+                                                   <font>
+                                                      <Font name="System Bold" size="16.0" />
+                                                   </font>
+                                                </Label>
+                                                <HBox alignment="CENTER_LEFT" layoutY="30.66668701171875">
+                                                   <children>
+                                                      <Label fx:id="orgManageUserLabel" prefWidth="120.0" styleClass="primary-text" text="Add ??? to" />
+                                                      <HBox>
+                                                         <styleClass>
+                                                            <String fx:value="wrap-box" />
+                                                            <String fx:value="shadow" />
+                                                         </styleClass>
+                                                         <children>
+                                                            <ChoiceBox fx:id="orgManageUserTeamChoiceBox" prefWidth="150.0" styleClass="transparent" />
+                                                         </children>
+                                                      </HBox>
+                                                      <HBox alignment="CENTER_RIGHT" prefWidth="130.0">
+                                                         <children>
+                                                            <Button fx:id="orgManageUserAddButton" mnemonicParsing="false" onAction="#onManageUserAddClick" styleClass="grey-button" text="Add" textFill="#eeeeee" />
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="schedulesTab" style="-fx-font-weight: bold;" text="Schedules">
+                     <content>
+                        <GridPane prefHeight="380.0" prefWidth="720.0" styleClass="primary-color">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="260.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="460.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="473.0">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="60.0" styleClass="primary-text" text="Schedule" />
+                                                <HBox>
+                                                   <children>
+                                                      <ChoiceBox fx:id="scheduleChoiceBox" prefWidth="170.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <TableView fx:id="scheduleTableView" prefHeight="250.0" />
+                                       </children>
+                                    </VBox>
+                                    <HBox fx:id="editActivityButtonGroup" spacing="10.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="0.0">
+                                       <children>
+                                          <Button fx:id="endActivityButton" mnemonicParsing="false" onAction="#onEndActivityClick" styleClass="grey-button" text="End Activity" textFill="#eeeeee" />
+                                          <Button mnemonicParsing="false" onAction="#onRemoveActivityClick" styleClass="red-button" text="Remove" textFill="#eeeeee" />
+                                       </children>
+                                    </HBox>
+                                    <Button fx:id="deselectActivityButton" layoutX="34.0" layoutY="326.0" mnemonicParsing="false" onAction="#onDeselectActivityClick" styleClass="grey-button" text="Deselect" textFill="#eeeeee" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                 <children>
+                                    <VBox spacing="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <padding>
+                                          <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                                       </padding>
+                                       <children>
+                                          <Label fx:id="addActivityLabel" styleClass="primary-text" text="Add Activity">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Activity Name" />
+                                                <HBox>
+                                                   <children>
+                                                      <TextField fx:id="activityNameTextField" prefWidth="150.0" promptText="Enter Activity Name" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Activity Date" />
+                                                <HBox>
+                                                   <children>
+                                                      <DatePicker fx:id="activityDatePicker" editable="false" prefWidth="150.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Activity Time" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="activityStartHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="activityStartMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="20.0" styleClass="primary-text" text="to">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="activityEndHourSpinner" editable="true" max="23" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                                <Label alignment="CENTER" prefWidth="10.0" styleClass="primary-text" text=":" />
+                                                <HBox>
+                                                   <children>
+                                                      <Spinner fx:id="activityEndMinuteSpinner" editable="true" max="59" min="0" prefWidth="60.0" styleClass="transparent" />
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT">
+                                             <children>
+                                                <Label prefWidth="120.0" styleClass="primary-text" text="Descriptions">
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                </Label>
+                                                <HBox>
+                                                   <children>
+                                                      <TextArea fx:id="activityDescriptionTextArea" prefHeight="100.0" prefWidth="280.0" promptText="Enter Activity Descriptions" styleClass="transparent" wrapText="true">
+                                                         <cursor>
+                                                            <Cursor fx:constant="DEFAULT" />
+                                                         </cursor>
+                                                      </TextArea>
+                                                   </children>
+                                                   <styleClass>
+                                                      <String fx:value="wrap-box" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </HBox>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets />
+                                             </VBox.margin>
+                                             <opaqueInsets>
+                                                <Insets />
+                                             </opaqueInsets>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" spacing="10.0">
+                                             <children>
+                                                <Button fx:id="addActivityButton" mnemonicParsing="false" onAction="#onAddActivityClick" styleClass="grey-button" text="Add" textFill="#eeeeee" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

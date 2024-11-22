@@ -1,0 +1,26 @@
+[
+  {
+    "userID": 23,
+    "comment": "The reservation for Meal at Hotel is XXX-XXX-XXXX Mr. John F\u0026B channel"
+  },
+  {
+    "userID": 21,
+    "comment": "Ok, I have the number of member so I\u0027ll contact right away"
+  },
+  {
+    "userID": 21,
+    "comment": "Alright the reservation have been made"
+  },
+  {
+    "userID": 21,
+    "comment": "What about the Borussia restaurant?"
+  },
+  {
+    "userID": 23,
+    "comment": "I have made a reservation just now "
+  },
+  {
+    "userID": 23,
+    "comment": "Done!"
+  }
+]

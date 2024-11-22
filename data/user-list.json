@@ -1,0 +1,938 @@
+[
+  {
+    "type": "ADMIN",
+    "userID": 0,
+    "username": "admin",
+    "password": "$2a$09$7AD07jQWO0ZeeryUzp.YPO4UWQMq.ooGLejB68FF1sPaA6TsV92uS",
+    "firstName": "Ok",
+    "lastName": "Computer",
+    "profileImagePath": "/images/user-default.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 15,
+      "minute": 28,
+      "second": 24
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 1,
+    "username": "dunderscranton01",
+    "password": "$2a$09$dwRz4oKG6uHoUin6CghR8.NVwf6J.RGBTYjJF3uaa4g5nRnWPxMf2",
+    "firstName": "Michael",
+    "lastName": "Scott",
+    "profileImagePath": "data/images/profiles/dunderscranton01.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 22,
+      "minute": 3,
+      "second": 25
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 2,
+    "username": "dunderscranton02",
+    "password": "$2a$09$4udHNFPQTBYxHPMWEwwPK.v2LocpwKLfyX.uYYcMNsSzdAt/znoou",
+    "firstName": "Dwight",
+    "lastName": "Schrute",
+    "profileImagePath": "data/images/profiles/dunderscranton02.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 13,
+      "second": 51
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 3,
+    "username": "dunderscranton03",
+    "password": "$2a$09$q07Blln1HnX1uJvyU7D21O4ikV9kDdt.dyhVIxAZz0/iP5KG8s.oa",
+    "firstName": "Jim",
+    "lastName": "Halpert",
+    "profileImagePath": "data/images/profiles/dunderscranton03.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 13,
+      "second": 26
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 4,
+    "username": "dunderscranton04",
+    "password": "$2a$09$p7GWIYJ76Lgc0N7Y0QXdu.IuTtoBsZeTYFV4SaTT.rdRuW/sI4Z8i",
+    "firstName": "Pam",
+    "lastName": "Beesly",
+    "profileImagePath": "data/images/profiles/dunderscranton04.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 15,
+      "second": 7
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 5,
+    "username": "dunderscranton05",
+    "password": "$2a$09$/vs6hRfTbtisv4RuD5A6o.IqrOvvr1dv1CbxMMaiZMlBudKxPlT22",
+    "firstName": "Oscar",
+    "lastName": "Martinez",
+    "profileImagePath": "data/images/profiles/dunderscranton05.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 14,
+      "second": 41
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 6,
+    "username": "dunderscranton06",
+    "password": "$2a$09$A48eZKqKdcwZ7LzCL0saAerSV1HUy69STF7PdNfbqwUBFMKQtJfnC",
+    "firstName": "Angela",
+    "lastName": "Martin",
+    "profileImagePath": "data/images/profiles/dunderscranton06.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 15,
+      "second": 39
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 7,
+    "username": "dunderscranton07",
+    "password": "$2a$09$nR3W9xDummN.t6ok3cwtROxtMHmYKhWEXLxu99AP5LElhZlIrKixS",
+    "firstName": "Kevin",
+    "lastName": "Malone",
+    "profileImagePath": "data/images/profiles/dunderscranton07.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 15,
+      "second": 57
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 8,
+    "username": "dunderscranton08",
+    "password": "$2a$09$/CS7HWK8HOccJZpZZjdUWue5.y/rIlGoDSOzqIBIAgW2GERpW6pce",
+    "firstName": "Stanley",
+    "lastName": "Hudson",
+    "profileImagePath": "data/images/profiles/dunderscranton08.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 19,
+      "second": 0
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 9,
+    "username": "dunderscranton09",
+    "password": "$2a$09$Nkg/D/5XkT1Ght3N15ywheIbTyiaw79wjvnItQMBz8XyZodwJNfeG",
+    "firstName": "Phyllis",
+    "lastName": "Vance",
+    "profileImagePath": "data/images/profiles/dunderscranton09.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 16,
+      "second": 19
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 10,
+    "username": "dunderscranton10",
+    "password": "$2a$09$uBLfMjud1eUvoaPasgwJ6OdOZns5EV6vrFoQtHOPXt7ATb0xAIZWm",
+    "firstName": "Meredith",
+    "lastName": "Palmer",
+    "profileImagePath": "data/images/profiles/dunderscranton10.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 16,
+      "second": 41
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 11,
+    "username": "dunderscranton11",
+    "password": "$2a$09$qLRy/iDUQGOMQzK8KtrKPeDLW9zOnDRUh3v53peKzP00hSzbqOLYm",
+    "firstName": "Creed",
+    "lastName": "Bratton",
+    "profileImagePath": "data/images/profiles/dunderscranton11.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 16,
+      "second": 58
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 12,
+    "username": "dunderscranton12",
+    "password": "$2a$09$ie82yhSfzpeZqjpuyGw3QOIbK4t6kX.Yj4Sdt1PIF76zj.RZjNA62",
+    "firstName": "Kelly",
+    "lastName": "Kapoor",
+    "profileImagePath": "data/images/profiles/dunderscranton12.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 21,
+      "minute": 18,
+      "second": 33
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 13,
+    "username": "dunderscranton13",
+    "password": "$2a$09$9Wd1.TfjpJfKDhdGFrn38uLj8.ALDIrhKT4TAO2S3PSJTBOuCq4re",
+    "firstName": "Toby",
+    "lastName": "Flenderson",
+    "profileImagePath": "data/images/profiles/dunderscranton13.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 11,
+      "minute": 44,
+      "second": 37
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 14,
+    "username": "dunderscranton14",
+    "password": "$2a$09$uhv7P8woC7FOazMKDigmx.NkoY0cPnFtOndplKqhyc8Nzg.mmlWYK",
+    "firstName": "Darryl",
+    "lastName": "Philbin",
+    "profileImagePath": "data/images/profiles/dunderscranton14.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 15,
+      "second": 43
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 15,
+    "username": "dunderscranton15",
+    "password": "$2a$09$xUIapHI6MQd67TvyZqD8Y.Y0u8TkpKxyZknT/9whsJCXZBb.kQlmC",
+    "firstName": "Ryan",
+    "lastName": "Howard",
+    "profileImagePath": "data/images/profiles/dunderscranton15.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 4,
+      "second": 56
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 16,
+    "username": "dunderscranton16",
+    "password": "$2a$09$pxEqqGgVK0RUS8xf2J7HueVK4l54mN94QQNAoWD35yLynJuxLbHwu",
+    "firstName": "Andy",
+    "lastName": "Bernard",
+    "profileImagePath": "data/images/profiles/dunderscranton16.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 17,
+      "second": 17
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 17,
+    "username": "dunderscranton17",
+    "password": "$2a$09$Ze27npf7uItwOdt.6wi/xOBzFP72lj5SlBha/jhD1kvTpifXkiedi",
+    "firstName": "Jan",
+    "lastName": "Levinson",
+    "profileImagePath": "data/images/profiles/dunderscranton17.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 11,
+      "second": 54
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 18,
+    "username": "dunderscranton18",
+    "password": "$2a$09$a5Jr2jyfhakXTLODmQpG5u66sN01logP2XZQbChnDgzUT3O6YT1j.",
+    "firstName": "David",
+    "lastName": "Wallace",
+    "profileImagePath": "data/images/profiles/dunderscranton18.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 11,
+      "second": 2
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 19,
+    "username": "dunderscranton19",
+    "password": "$2a$09$KWY0Ulz9YvuQHLqkqf644eGgdFKWGl9WV1qJwkOHgapn2YgKMd49i",
+    "firstName": "Holly",
+    "lastName": "Flax",
+    "profileImagePath": "data/images/profiles/dunderscranton19.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 18,
+      "second": 19
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 20,
+    "username": "dunderscranton20",
+    "password": "$2a$09$gGoTN7OjkdMbkT1tEkN/kuIbAW7NC9utwbo7pHh2LHAU0AoKy1SKW",
+    "firstName": "Erin",
+    "lastName": "Hannon",
+    "profileImagePath": "data/images/profiles/dunderscranton20.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 8,
+      "second": 3
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 21,
+    "username": "oataotoat",
+    "password": "$2a$09$ezdpkXurM9iQuqMYQIRrjelzlozutMtCGHtU.pwC2b/hU0f1zUz6.",
+    "firstName": "Tanapon",
+    "lastName": "Thaiyanusorn",
+    "profileImagePath": "data/images/profiles/oataotoat.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 13,
+      "minute": 29,
+      "second": 26
+    },
+    "userDefaultTheme": "DARK"
+  },
+  {
+    "type": "USER",
+    "userID": 22,
+    "username": "hddmtm",
+    "password": "$2a$09$Th5zJn/diM7irF4tj..X2emAN8aTm7h4M5REasNk8vwKY9eI5M.1e",
+    "firstName": "Preuk",
+    "lastName": "Rattana-amornkul",
+    "profileImagePath": "data/images/profiles/hddmtm.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 12,
+      "minute": 8,
+      "second": 59
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 23,
+    "username": "himechi",
+    "password": "$2a$09$4U.bQmcRkyRutJ6oQJ4kZ.EyNS2V9F0ihQcCcAkD/d9W1iSjFoCS6",
+    "firstName": "Chantip",
+    "lastName": "Piriyabanjurd",
+    "profileImagePath": "data/images/profiles/himechi.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 13,
+      "minute": 56,
+      "second": 43
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 24,
+    "username": "kun",
+    "password": "$2a$09$h/00SZ6IsNDoNENNxV37f.jE0fpciah3VLftQxfcbOenQeazNX3/6",
+    "firstName": "Zharut",
+    "lastName": "Jongsatitpaiboon",
+    "profileImagePath": "data/images/profiles/kun.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 1,
+      "minute": 49,
+      "second": 38
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 25,
+    "username": "theBear01",
+    "password": "$2a$09$DTdQdxDtnybgGpnSa8jCB.JXt4xIpD2Gr9jrCJGkuAwfULbMeAIhu",
+    "firstName": "Carmen",
+    "lastName": "Berzatto",
+    "profileImagePath": "data/images/profiles/theBear01.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 11,
+      "minute": 17,
+      "second": 17
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 26,
+    "username": "theBear02",
+    "password": "$2a$09$rO6p/Um475r3fMdPefqFZe1xp0Y7Sm1MJw6Vf3UYaomA0pgXmj0ZK",
+    "firstName": "Michael",
+    "lastName": "Berzatto",
+    "profileImagePath": "data/images/profiles/theBear02.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 11,
+      "minute": 16,
+      "second": 15
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 27,
+    "username": "theBear03",
+    "password": "$2a$09$N5qQ9GdWhxaiWc5vOmUXXeOiZdEddLUBy7PvUTIaN53cYXjZu5wjm",
+    "firstName": "Natalie",
+    "lastName": "Berzatto",
+    "profileImagePath": "data/images/profiles/theBear03.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 11,
+      "minute": 34,
+      "second": 30
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 28,
+    "username": "BCS01",
+    "password": "$2a$09$2vvmYHu628vYKvn52LjPjem/Ik0y0FdnFxYzo9uRffiXRhlOvtqG.",
+    "firstName": "Saul",
+    "lastName": "Goodman",
+    "profileImagePath": "data/images/profiles/BCS01.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 11,
+      "minute": 5,
+      "second": 45
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 29,
+    "username": "BCS02",
+    "password": "$2a$09$mwaTZUVVt1wCTCCzcL1XzexI7JAuTtKcp9K6jKgbtmwjtP/yLQvy6",
+    "firstName": "Kimberly",
+    "lastName": "Wexler",
+    "profileImagePath": "data/images/profiles/BCS02.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 11,
+      "minute": 6,
+      "second": 16
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 30,
+    "username": "BCS03",
+    "password": "$2a$09$W2IWofgzBY6PRcLkg9gLeeKjFk05ao0ppIv71BJLcCYlzX9Gt2Y9C",
+    "firstName": "Eduardo",
+    "lastName": "Salamanca",
+    "profileImagePath": "data/images/profiles/BCS03.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 10,
+      "minute": 58,
+      "second": 22
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 31,
+    "username": "BCS04",
+    "password": "$2a$09$/e7Q5OIv.T7M/4OkZB2ykurl0YE3JkVGC3omKkdbgPDXD4jMDgOPS",
+    "firstName": "Howard",
+    "lastName": "Hamlin",
+    "profileImagePath": "data/images/profiles/BCS04.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 11,
+      "minute": 6,
+      "second": 34
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 32,
+    "username": "BCS05",
+    "password": "$2a$09$8s70Z369kuXpcSmyKGl7U.8qRtYu0xuDbh8fGgEgwy6iP8pBbrY1i",
+    "firstName": "Nacho",
+    "lastName": "Varga",
+    "profileImagePath": "data/images/profiles/BCS05.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 10,
+      "minute": 58,
+      "second": 2
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 33,
+    "username": "LUMON01",
+    "password": "$2a$09$593rYAKNqG.hb.X4TS00sONKYqr2FI1xowEqL9L9ieXVKzYHVE4Te",
+    "firstName": "Mark",
+    "lastName": "Scout",
+    "profileImagePath": "data/images/profiles/LUMON01.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 18,
+      "second": 46
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 34,
+    "username": "LUMON02",
+    "password": "$2a$09$mdhRiC5t9IoQWYNT1SaEz.HuqdoEbl33Eh3/3OfCZz3tzk/s1LVtG",
+    "firstName": "Irving",
+    "lastName": "Bailiff",
+    "profileImagePath": "data/images/profiles/LUMON02.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 19,
+      "second": 4
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 35,
+    "username": "LUMON03",
+    "password": "$2a$09$E1X2t9q7.9D49JSO4qwqKOmrwTn4TkCU5emfgVlmYKqsJ3H4.s2Ce",
+    "firstName": "Dylan",
+    "lastName": "George",
+    "profileImagePath": "data/images/profiles/LUMON03.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 20,
+      "second": 14
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 36,
+    "username": "LUMON04",
+    "password": "$2a$09$2sRfmvJzYKMpd0DUYcw3peNR.5auDXnw9TI3foJFizV3v/kRa7J9W",
+    "firstName": "Helly",
+    "lastName": "Riggs",
+    "profileImagePath": "data/images/profiles/LUMON04.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 20,
+      "second": 34
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 37,
+    "username": "LUMON05",
+    "password": "$2a$09$CZtGmLD9AsmYlKxiSdtuMO7te5YgKUBD9zF/Uj4BR8RVrF82TmERW",
+    "firstName": "Peter",
+    "lastName": "Kilmer",
+    "profileImagePath": "data/images/profiles/LUMON05.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 16,
+      "minute": 12,
+      "second": 14
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 38,
+    "username": "LUMON06",
+    "password": "$2a$09$R0Q3Ds4TiGA3dasowNPGi.1yxDew3qV4j8T.PmfS.LYamcvBvAV9a",
+    "firstName": "Harmony",
+    "lastName": "Cobel",
+    "profileImagePath": "data/images/profiles/LUMON06.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 21,
+      "minute": 52,
+      "second": 36
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 39,
+    "username": "LUMON07",
+    "password": "$2a$09$Kl57i7NJZ5u8.dL9oqOPKelHNdi0bT0lQaesd5qjvSSYR4/ehv0AG",
+    "firstName": "Seth",
+    "lastName": "Milchick",
+    "profileImagePath": "data/images/profiles/LUMON07.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 21,
+      "minute": 51,
+      "second": 38
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 40,
+    "username": "LUMON08",
+    "password": "$2a$09$QCqLJdaLosxB86SYTXyrhOnEVvqCBbwHF7MszJivQMicRo4/wH4M6",
+    "firstName": "Doug",
+    "lastName": "Graner",
+    "profileImagePath": "data/images/profiles/LUMON08.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 22,
+      "second": 5
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 41,
+    "username": "voldemort",
+    "password": "$2a$09$BA47KLoK5JjzUE/pMoeHjuvWciPyiZWrOYB3tz0Rnclmrzmoj8z2i",
+    "firstName": "Tom",
+    "lastName": "Cruise",
+    "profileImagePath": "data/images/profiles/voldemort.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 23,
+      "minute": 53,
+      "second": 47
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 42,
+    "username": "LUMON09",
+    "password": "$2a$09$.7gTb71l3TELTg2wzHBOIe5Lnfdtr4WNeemwTj.WoDi2rWG9wPD3O",
+    "firstName": "Burt",
+    "lastName": "Goodman",
+    "profileImagePath": "data/images/profiles/LUMON09.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 22,
+      "minute": 39,
+      "second": 12
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 43,
+    "username": "LUMON10",
+    "password": "$2a$09$a7Yk0pw8d09J1NaD3s8B5.aIZWQh5zzZyRgPiYjV72G8MrkydDsA6",
+    "firstName": "Gemma",
+    "lastName": "Casey",
+    "profileImagePath": "data/images/profiles/LUMON10.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 23,
+      "minute": 22,
+      "second": 19
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 44,
+    "username": "BCS06",
+    "password": "$2a$09$280nFqyESTpQvT23I24K6OHAQQFO/VpyfEdnRpyAhh56OKDAyBDU.",
+    "firstName": "Michael",
+    "lastName": "Ehrmantraut",
+    "profileImagePath": "data/images/profiles/BCS06.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 10,
+      "minute": 57,
+      "second": 24
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 45,
+    "username": "BCS07",
+    "password": "$2a$09$7JdepreDgetKBGXWC5II9O3.HVBeSy00xv1Co.f4YtiyI11CcsSR.",
+    "firstName": "Gustavo",
+    "lastName": "Fring",
+    "profileImagePath": "data/images/profiles/BCS07.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 31,
+      "second": 34
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 46,
+    "username": "BCS08",
+    "password": "$2a$09$c0aW6K2whESt6aeH8X/3g.mAlgzq8/.LBiiSqZF/0GjPcLx2yOblq",
+    "firstName": "Werner",
+    "lastName": "Ziegler",
+    "profileImagePath": "data/images/profiles/BCS08.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 11,
+      "minute": 0,
+      "second": 17
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 47,
+    "username": "BCS09",
+    "password": "$2a$09$.aBc02abLdpMQedkAZjaZuvg6YrSl7Xx.wO5D/TKCVcRuVCKrYC3i",
+    "firstName": "Gale",
+    "lastName": "Boetticher",
+    "profileImagePath": "data/images/profiles/BCS09.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 10,
+      "minute": 41,
+      "second": 45
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 48,
+    "username": "BCS10",
+    "password": "$2a$09$Ik4P8lGP5QenXBW1nyjNEutnLh1dUai.NYZ9bwq1HR/DPup.ZzSBq",
+    "firstName": "Margarethe",
+    "lastName": "Ziegler",
+    "profileImagePath": "data/images/profiles/BCS10.png",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 11,
+      "minute": 6,
+      "second": 58
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 49,
+    "username": "theBear04",
+    "password": "$2a$09$hpKKMvcUOb1Z0UbOADKNTOt.xxg8cpBXTrWql5ou/ZEdce3UpDuwG",
+    "firstName": "Richard",
+    "lastName": "Jerimovich",
+    "profileImagePath": "data/images/profiles/theBear04.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 12,
+      "minute": 9,
+      "second": 16
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 50,
+    "username": "theBear05",
+    "password": "$2a$09$ZEilOPQfyVOJXziJpLskzuodnppUODwng5uCWwd8tThXFA8oP0YtO",
+    "firstName": "Donna",
+    "lastName": "Berzatto",
+    "profileImagePath": "data/images/profiles/theBear05.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 11,
+      "hourOfDay": 12,
+      "minute": 40,
+      "second": 1
+    },
+    "userDefaultTheme": "LIGHT"
+  },
+  {
+    "type": "USER",
+    "userID": 51,
+    "username": "robBanks",
+    "password": "$2a$09$modqDjwa/6.ZmZIwaCuZfOA0lFjst.4DSLmwnKBviizxDBCUjSxXe",
+    "firstName": "Rob",
+    "lastName": "Banks",
+    "profileImagePath": "data/images/profiles/robBanks.jpg",
+    "loggedInTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 1,
+      "minute": 59,
+      "second": 57
+    },
+    "userDefaultTheme": "LIGHT"
+  }
+]

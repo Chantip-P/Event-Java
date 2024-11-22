@@ -1,0 +1,30 @@
+[
+  {
+    "userID": 20,
+    "comment": "Let\u0027s get some ice creams!"
+  },
+  {
+    "userID": 16,
+    "comment": "Yeah."
+  },
+  {
+    "userID": 19,
+    "comment": "I\u0027m coming with you guys."
+  },
+  {
+    "userID": 8,
+    "comment": "No, thanks."
+  },
+  {
+    "userID": 8,
+    "comment": "I\u0027m gonna go home,"
+  },
+  {
+    "userID": 8,
+    "comment": "and eat some pretzels."
+  },
+  {
+    "userID": 20,
+    "comment": "Could we join you?"
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "eventID": 0,
+    "eventCreatorUserID": 23,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [
+      11
+    ],
+    "eventName": "Summer Vacation at Pattaya",
+    "eventDescription": "Experience the Perfect Summer Getaway in Pattaya: Your Ultimate Trip Plan\n\nAre you ready to embark on an unforgettable summer vacation? Look no further than the picturesque coastal paradise of Pattaya, Thailand. With its pristine beaches, vibrant culture, and a myriad of exciting activities, your summer adventure awaits!",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 9,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 15,
+      "hourOfDay": 12,
+      "minute": 0,
+      "second": 0
+    },
+    "participantsIDList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      8
+    ],
+    "participantAcceptStartDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 18,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 18,
+      "minute": 0,
+      "second": 0
+    },
+    "maxParticipants": 20,
+    "organizerTeamsIDList": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "eventScheduleID": 0
+  },
+  {
+    "eventID": 1,
+    "eventCreatorUserID": 1,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [
+      13,
+      15
+    ],
+    "eventName": "The Conference Room With Michael Scott",
+    "eventDescription": "\"Alright, everybody in conference room... JUST GET IN HERE!\"\n\nThe conference room is a room in every branch of Dunder Mifflin, as well as corporate. This room holds all large meetings, most office parties, as well as private discussions between people without offices. Occasionally the conference room is used as a temporary workspace for corporate employees who did not have a desk at that location or employees of that branch, who temporarily require a private workspace.",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 9,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 14,
+      "hourOfDay": 20,
+      "minute": 0,
+      "second": 0
+    },
+    "participantsIDList": [
+      2,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "participantAcceptStartDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 9,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 18,
+      "minute": 0,
+      "second": 0
+    },
+    "maxParticipants": 8,
+    "organizerTeamsIDList": [
+      4,
+      5
+    ],
+    "eventScheduleID": 5
+  },
+  {
+    "eventID": 2,
+    "eventCreatorUserID": 39,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [
+      37
+    ],
+    "eventName": "Welcome Celebration For Helly R.",
+    "eventDescription": "\"Okay, refiners! Let\u0027s get this new group photo before the melon bloat sets in.\"\n\nIt is a welcome celebration for Helly R. to Macro Data Refinement Department (MDR). There\u0027s \"A Melon Bar\"\n\nA Melon Bar is a form of employee celebration given at Lumon Industries.\n\nMelon bars are not as coveted as Egg Bars nor are they as rare as Waffle Parties.",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 9,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 13,
+      "hourOfDay": 16,
+      "minute": 30,
+      "second": 0
+    },
+    "participantsIDList": [
+      33,
+      34,
+      35,
+      36
+    ],
+    "participantAcceptStartDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "maxParticipants": 4,
+    "organizerTeamsIDList": [
+      6
+    ],
+    "eventScheduleID": 8
+  },
+  {
+    "eventID": 3,
+    "eventCreatorUserID": 45,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [],
+    "eventName": "Superlab Project",
+    "eventDescription": "The Superlab is a large-scale laboratory facility that was located underneath the Lavandería Brillante industrial laundry in Albuquerque, New Mexico. The lab was proposed by Lydia Rodarte-Quayle and financed by Gustavo Fring and Peter Schuler, with the project costing over $8 million.\n\nConstruction was organized and supervised by Mike Ehrmantraut. A first construction team, headed by Werner Ziegler, worked from April 2003 to March 2004 on the project, clearing out the space, and beginning preliminary foundational work. An unknown second team was hired sometime after June 2004, finishing the project sometime prior to March 2009. It was constructed for the purpose of manufacturing industrial amounts of illicit methamphetamine and thus played a vital role in the expansion of Gus\u0027 drug empire.\n\nThe Superlab was capable of cooking between 100 and 300 pounds of meth per week. Its layout was designed by chemist Gale Boetticher, who specified its every detail, including the apparatus required.",
+    "startDateTime": {
+      "year": 2023,
+      "month": 6,
+      "dayOfMonth": 17,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 1,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "participantsIDList": [
+      28,
+      29,
+      31,
+      48
+    ],
+    "participantAcceptStartDateTime": {
+      "year": 2023,
+      "month": 6,
+      "dayOfMonth": 3,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2023,
+      "month": 6,
+      "dayOfMonth": 14,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "maxParticipants": 10,
+    "organizerTeamsIDList": [
+      7,
+      8
+    ],
+    "eventScheduleID": 10
+  },
+  {
+    "eventID": 4,
+    "eventCreatorUserID": 50,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [],
+    "eventName": "Christmas With The Berzattos",
+    "eventDescription": "An intense and heated Christmas dinner in the Berzattos family",
+    "startDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 24,
+      "hourOfDay": 9,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 24,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "participantsIDList": [
+      21,
+      23,
+      24,
+      22,
+      49
+    ],
+    "participantAcceptStartDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 23,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 23,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "maxParticipants": 5,
+    "organizerTeamsIDList": [
+      9
+    ],
+    "eventScheduleID": 13
+  },
+  {
+    "eventID": 5,
+    "eventCreatorUserID": 41,
+    "eventVisibility": "PUBLIC",
+    "bannedUsersIDList": [],
+    "eventName": "Quidditch Cup Extravaganza at Hogwarts: Soar to Victory!",
+    "eventDescription": "Join us for an exhilarating day of magical athleticism at the Hogwarts Quidditch Cup. The skies above the Quidditch pitch will be alive with the thunderous roar of broomsticks and the thrill of the game. Spectators, wizards, and witches of all ages are invited to witness the heart-stopping action as our house teams compete for the coveted Quidditch Cup. It\u0027s an event you won\u0027t want to miss!",
+    "startDateTime": {
+      "year": 2023,
+      "month": 10,
+      "dayOfMonth": 1,
+      "hourOfDay": 7,
+      "minute": 30,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 10,
+      "dayOfMonth": 3,
+      "hourOfDay": 23,
+      "minute": 0,
+      "second": 0
+    },
+    "participantsIDList": [],
+    "participantAcceptStartDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "participantAcceptEndDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 31,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "maxParticipants": 50,
+    "organizerTeamsIDList": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventScheduleID": 15
+  }
+]

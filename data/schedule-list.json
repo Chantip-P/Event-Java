@@ -1,0 +1,2984 @@
+[
+  {
+    "scheduleID": 0,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Gathering",
+        "description": "All participant gather at Bang sue grand station at bus stop ready for departure",
+        "forceEnd": false,
+        "activityID": 0
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Departure",
+        "description": "The bus will leave Bang sue heading to Pattaya ",
+        "forceEnd": false,
+        "activityID": 1
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 11,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Short Break",
+        "description": "A short break on a highway for those who want to use the toilet",
+        "forceEnd": false,
+        "activityID": 2
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Lunch at Surf \u0026 Turf Pattaya",
+        "description": "Have a lunch with variety of seafood and international dishes by the sea at Surf \u0026 Turf restaurant",
+        "forceEnd": false,
+        "activityID": 3
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 14,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Check in at Long Beach Garden \u0026 Hotel",
+        "description": "Check in and carry lugages to reservation room",
+        "forceEnd": false,
+        "activityID": 4
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 14,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Free Time",
+        "description": "Free Time to rest from a long ride and to explore the facilities in Long Beach Hotel if you would like",
+        "forceEnd": false,
+        "activityID": 5
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Dinner at Long Beach International Dinning Room",
+        "description": "Enjoy the International dishes and fresh seafood all you can eat with today\u0027s special of newzealand oyster with lemon and lemon grilled lobster",
+        "forceEnd": false,
+        "activityID": 6
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 7,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Breakfast",
+        "description": "Eat Breakfast at Long Beach Lobby",
+        "forceEnd": false,
+        "activityID": 7
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 8,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Gathering",
+        "description": "Everyone  gather at hotel lobby",
+        "forceEnd": false,
+        "activityID": 9
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 11,
+          "minute": 40,
+          "second": 0
+        },
+        "activityName": "Visit Under Water World Aquarium",
+        "description": "Pattaya one and only Aquarium with various sea creature and exotic animal. Do not forget check out the gift shop",
+        "forceEnd": false,
+        "activityID": 10
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch at Borussia restaurant",
+        "description": "Enjoy recommendation traditional german dish at Borussia restaurant, other option such as English , American dishes and many more.",
+        "forceEnd": false,
+        "activityID": 8
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 15,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Free Time ",
+        "description": "Free Time to rest from a long tripand to explore the facilities in Long Beach Hotel if you would like",
+        "forceEnd": false,
+        "activityID": 11
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 15,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 16,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Banana Boat ride",
+        "description": "Enjoy Banana Boat ride at beach located by Long Beach Hotel",
+        "forceEnd": false,
+        "activityID": 12
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 19,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Dinner at Seafood Restaurant",
+        "description": "Enjoy local dishes such as Seafood Tom Yum, Ryuugyu egg hot pot, Asserted oyster and many more",
+        "forceEnd": false,
+        "activityID": 13
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Fireworks festival",
+        "description": "Sight seeing fireworks festival by the beach of Long Beach hotel",
+        "forceEnd": false,
+        "activityID": 14
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Gathering",
+        "description": "Check out from the hotel and gather at lobby ready for departure",
+        "forceEnd": false,
+        "activityID": 15
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Departure",
+        "description": "Depart from Pattaya back to Bang sue ",
+        "forceEnd": false,
+        "activityID": 16
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Short break",
+        "description": "Short break for toilet stop and snack at gas station",
+        "forceEnd": false,
+        "activityID": 17
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Arriving to Bang sue",
+        "description": "Arriving to Bang sue station ",
+        "forceEnd": false,
+        "activityID": 18
+      }
+    ]
+  },
+  {
+    "scheduleID": 1,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact the bus company",
+        "description": "Reserve a bus and bus driver for the trip ",
+        "forceEnd": true,
+        "activityID": 19
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Discuss route",
+        "description": "Make a check list of destination and route to the destination ",
+        "forceEnd": false,
+        "activityID": 20
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 11,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch Break",
+        "description": "Lunch Break and rest time",
+        "forceEnd": false,
+        "activityID": 21
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 7,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparation",
+        "description": "Prepare things needs to be done before the members arrive",
+        "forceEnd": false,
+        "activityID": 22
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact missing member",
+        "description": "Contact those whose doesn\u0027t come yet to confirm their arrival",
+        "forceEnd": false,
+        "activityID": 23
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 7,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact the driver",
+        "description": "Contact the driver to prepare at the hotel and discuss the destination route",
+        "forceEnd": false,
+        "activityID": 24
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 8,
+          "minute": 10,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 8,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Contact missing member",
+        "description": "Contact those whose has not come yet to confirm their arrival",
+        "forceEnd": false,
+        "activityID": 25
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 7,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact the driver",
+        "description": "Contact the driver to prepare at the hotel and discuss the destination route",
+        "forceEnd": false,
+        "activityID": 26
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 20,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Contact missing member",
+        "description": "Contact those whose has not come yet to confirm their arrival",
+        "forceEnd": false,
+        "activityID": 27
+      }
+    ]
+  },
+  {
+    "scheduleID": 2,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Confirm the member",
+        "description": "Confirm if which member come with who to put them in the same room or room beside each other",
+        "forceEnd": false,
+        "activityID": 28
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Additional Request",
+        "description": "Make a list for member additional request such as religious needs in the hotel",
+        "forceEnd": false,
+        "activityID": 32
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact Hotel",
+        "description": "Contact Long Beach Hotel to make reservation for the  members",
+        "forceEnd": false,
+        "activityID": 29
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch Break",
+        "description": "Lunch break and rest time",
+        "forceEnd": false,
+        "activityID": 30
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 15,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Confirm reservation and contact Guide team",
+        "description": "Prepare the details for guide team to prepare members for check in",
+        "forceEnd": false,
+        "activityID": 31
+      }
+    ]
+  },
+  {
+    "scheduleID": 3,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Confirm the member",
+        "description": "Confirm number of member participating",
+        "forceEnd": false,
+        "activityID": 33
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Additional Request",
+        "description": "Make a list for member additional request such as religious needs in the restaurant",
+        "forceEnd": false,
+        "activityID": 34
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 11,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Contact restaurant for reservation",
+        "description": "Contact Restaurant to make reservation for the  members",
+        "forceEnd": false,
+        "activityID": 35
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch Break",
+        "description": "Lunch break and rest time",
+        "forceEnd": false,
+        "activityID": 36
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 15,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Confirm reservation and contact Guide team",
+        "description": "Prepare the details for guide team to prepare members for check in",
+        "forceEnd": false,
+        "activityID": 37
+      }
+    ]
+  },
+  {
+    "scheduleID": 4,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 12,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Research information of destinations",
+        "description": "Research rough history of places we are going to visit and what activity do we have there",
+        "forceEnd": false,
+        "activityID": 38
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 11,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Brief explanation of the trip",
+        "description": "Entertain member on the bus and Briefly explain the event schedule to all members",
+        "forceEnd": false,
+        "activityID": 39
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 14,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Check in at Long Beach Garden \u0026 Hotel",
+        "description": "Check in for all member in the tour",
+        "forceEnd": false,
+        "activityID": 40
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 11,
+          "minute": 40,
+          "second": 0
+        },
+        "activityName": "Aquarium guide",
+        "description": "Guide the member throughout the aquarium",
+        "forceEnd": false,
+        "activityID": 43
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Fireworks",
+        "description": "Lead member to a firework sight seeing spot and stay with them until the end of activity",
+        "forceEnd": false,
+        "activityID": 41
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 15,
+          "hourOfDay": 8,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Gathering",
+        "description": "Everyone Gather at the lobby",
+        "forceEnd": false,
+        "activityID": 42
+      }
+    ]
+  },
+  {
+    "scheduleID": 5,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Introduction 1",
+        "description": "\"Welcome everyone, Let\u0027s sit down and stay calm.\"",
+        "forceEnd": false,
+        "activityID": 50
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting 1",
+        "description": "Meeting Michael Scott",
+        "forceEnd": false,
+        "activityID": 44
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch",
+        "description": "\"Let\u0027s Eat PIZZA.\"",
+        "forceEnd": false,
+        "activityID": 52
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting 1.5",
+        "description": "Meeting Michael Scott And His Powerpoint",
+        "forceEnd": false,
+        "activityID": 53
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Introduction 2",
+        "description": "\"Okay guys, just relax and let it be.\"",
+        "forceEnd": false,
+        "activityID": 51
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting 2",
+        "description": "Meeting Jan Levinson and David Wallace",
+        "forceEnd": false,
+        "activityID": 45
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch",
+        "description": "\"Let\u0027s Eat PRETZEL! Today.\"",
+        "forceEnd": false,
+        "activityID": 54
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting 2.5",
+        "description": "Meeting With Robert California",
+        "forceEnd": false,
+        "activityID": 55
+      }
+    ]
+  },
+  {
+    "scheduleID": 6,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Pep Talk",
+        "description": "\"Just Pep Talk\"",
+        "forceEnd": false,
+        "activityID": 46
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch For Teams",
+        "description": "Chinese Food : Noodles and Dumplings",
+        "forceEnd": false,
+        "activityID": 56
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Aftermath 1",
+        "description": "Reflecting After Meeting 1",
+        "forceEnd": false,
+        "activityID": 57
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch For Teams",
+        "description": "Hamburgers and French Fries",
+        "forceEnd": false,
+        "activityID": 58
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Aftermath 2",
+        "description": "Reflecting After Meeting 2",
+        "forceEnd": false,
+        "activityID": 47
+      }
+    ]
+  },
+  {
+    "scheduleID": 7,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 8,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Pep Talk",
+        "description": "\"Just Pep Talk\"",
+        "forceEnd": false,
+        "activityID": 48
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch For Teams",
+        "description": "Chinese Food : Noodles and Dumplings",
+        "forceEnd": false,
+        "activityID": 59
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 19,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Aftermath 1",
+        "description": "Reflecting After Meeting 1",
+        "forceEnd": false,
+        "activityID": 60
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch For Teams",
+        "description": "Hamburgers and French Fries",
+        "forceEnd": false,
+        "activityID": 61
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 14,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Celebrating",
+        "description": "Celebrate After Meeting",
+        "forceEnd": false,
+        "activityID": 49
+      }
+    ]
+  },
+  {
+    "scheduleID": 8,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 15,
+          "second": 0
+        },
+        "activityName": "Welcome Helly R.",
+        "description": "\"Now, let\u0027s get this party started.\"",
+        "forceEnd": false,
+        "activityID": 62
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 15,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 20,
+          "second": 0
+        },
+        "activityName": "Photo Set",
+        "description": "\"Say \"Gratitude\"!\"",
+        "forceEnd": false,
+        "activityID": 63
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 20,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 40,
+          "second": 0
+        },
+        "activityName": "Melon Bar",
+        "description": "Melons",
+        "forceEnd": false,
+        "activityID": 105
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 40,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Getting-to-know-you",
+        "description": "An Exercise For Everyone To Know Each Other",
+        "forceEnd": false,
+        "activityID": 64
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Back To Work",
+        "description": "Working",
+        "forceEnd": false,
+        "activityID": 65
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch Break",
+        "description": "Lunch",
+        "forceEnd": false,
+        "activityID": 66
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Continue Working",
+        "description": "Working Again",
+        "forceEnd": false,
+        "activityID": 67
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 15,
+          "second": 0
+        },
+        "activityName": "Special",
+        "description": "Special Present For Helly R.",
+        "forceEnd": false,
+        "activityID": 68
+      }
+    ]
+  },
+  {
+    "scheduleID": 9,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparing",
+        "description": "Prepare Everything",
+        "forceEnd": false,
+        "activityID": 69
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Let\u0027s Party",
+        "description": "Party For Helly R.",
+        "forceEnd": false,
+        "activityID": 70
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 10,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Watching Refiners",
+        "description": "Watching Refiners\u0027s Behavior After Party",
+        "forceEnd": false,
+        "activityID": 71
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch Break",
+        "description": "Lunch",
+        "forceEnd": false,
+        "activityID": 72
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Watching Helly R.",
+        "description": "Watching Refiners, especially Helly R.",
+        "forceEnd": false,
+        "activityID": 73
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Give Present",
+        "description": "\"How\u0027s your first day, Helly?\"",
+        "forceEnd": false,
+        "activityID": 74
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 16,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 13,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Analysis",
+        "description": "Analysis All Severance Employees",
+        "forceEnd": false,
+        "activityID": 75
+      }
+    ]
+  },
+  {
+    "scheduleID": 10,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 17,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 17,
+          "hourOfDay": 11,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Survey At Lavandería Brillante",
+        "description": "Make measurements to determine the possibility of building superlab",
+        "forceEnd": false,
+        "activityID": 76
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 17,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 17,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Move In To Warehouse",
+        "description": "Crew arrive at a warehouse and explore their new surroundings. Michael addresses the group, explaining the living situation in each house",
+        "forceEnd": false,
+        "activityID": 86
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 18,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 18,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Start Construction",
+        "description": "Start Construct Superlab",
+        "forceEnd": false,
+        "activityID": 77
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 24,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 24,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Construction : Week 1",
+        "description": "Continue Construct Superlab",
+        "forceEnd": false,
+        "activityID": 78
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 31,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 31,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Construction : Week 2",
+        "description": "Continue Construct Superlab",
+        "forceEnd": false,
+        "activityID": 79
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 7,
+          "dayOfMonth": 7,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 7,
+          "dayOfMonth": 7,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Construction : Week 3",
+        "description": "Continue Construct Superlab",
+        "forceEnd": false,
+        "activityID": 80
+      }
+    ]
+  },
+  {
+    "scheduleID": 11,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 10,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 10,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Preparing Warehouse",
+        "description": "Preparing Warehouse For Crews",
+        "forceEnd": false,
+        "activityID": 81
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 18,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 18,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Start Construction",
+        "description": "Start Superlab Construction",
+        "forceEnd": false,
+        "activityID": 82
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 24,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 24,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Checking Construction 1",
+        "description": "Checking Superlab Construction",
+        "forceEnd": false,
+        "activityID": 83
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 31,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 6,
+          "dayOfMonth": 31,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Checking Construction 2",
+        "description": "Checking Superlab Construction",
+        "forceEnd": false,
+        "activityID": 84
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 7,
+          "dayOfMonth": 7,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 7,
+          "dayOfMonth": 7,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Checking Construction 3",
+        "description": "Checking Superlab Construction",
+        "forceEnd": false,
+        "activityID": 85
+      }
+    ]
+  },
+  {
+    "scheduleID": 12,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 11,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 11,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Start Watching",
+        "description": "Start Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 88
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 12,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 12,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Watching 1",
+        "description": "Continue Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 89
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 13,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 13,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Watching 2",
+        "description": "Continue Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 90
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 14,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 14,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Watching 3",
+        "description": "Continue Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 91
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 15,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 15,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Watching 4",
+        "description": "Continue Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 92
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 16,
+          "hourOfDay": 0,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 8,
+          "dayOfMonth": 16,
+          "hourOfDay": 23,
+          "minute": 59,
+          "second": 0
+        },
+        "activityName": "Watching 5",
+        "description": "Continue Watching Lavandería Brillante",
+        "forceEnd": false,
+        "activityID": 93
+      }
+    ]
+  },
+  {
+    "scheduleID": 13,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Welcome",
+        "description": "Welcome Everyone To The Berzattos\u0027s House",
+        "forceEnd": false,
+        "activityID": 94
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch",
+        "description": "Lunch Time",
+        "forceEnd": false,
+        "activityID": 95
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Cooking Part 1",
+        "description": "Cooking With Donna",
+        "forceEnd": false,
+        "activityID": 96
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Dinner Break",
+        "description": "Dinner Break, Not Real Dinner",
+        "forceEnd": false,
+        "activityID": 97
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 17,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Cooking Part 2",
+        "description": "Cooking With Donna And Carmy",
+        "forceEnd": false,
+        "activityID": 98
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 23,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Gathering Dinner",
+        "description": "\"Dinner\u0027s Ready!\"",
+        "forceEnd": false,
+        "activityID": 99
+      }
+    ]
+  },
+  {
+    "scheduleID": 14,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Prepare Cooking",
+        "description": "Prepare Ingredients And Equipments For Cooking",
+        "forceEnd": false,
+        "activityID": 100
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Lunch",
+        "description": "Lunch TIme",
+        "forceEnd": false,
+        "activityID": 101
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 13,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Cooking Part 1",
+        "description": "Hell\u0027s Kitchen",
+        "forceEnd": false,
+        "activityID": 102
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Dinner Break",
+        "description": "Quick Break",
+        "forceEnd": false,
+        "activityID": 103
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 16,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Cooking Part 2",
+        "description": "Hell\u0027s Kitchen Again",
+        "forceEnd": false,
+        "activityID": 104
+      },
+      {
+        "startDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 22,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2022,
+          "month": 11,
+          "dayOfMonth": 24,
+          "hourOfDay": 22,
+          "minute": 30,
+          "second": 0
+        },
+        "activityName": "Serving Dinner",
+        "description": "Serving Dinner",
+        "forceEnd": false,
+        "activityID": 105
+      }
+    ]
+  },
+  {
+    "scheduleID": 15,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 1,
+          "hourOfDay": 7,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 1,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Registration",
+        "description": "Show your ticket and take a seat. Please be prepared for the incredible tournament, Quidditch Cup Extravaganza.",
+        "forceEnd": false,
+        "activityID": 107
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 1,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 1,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Day 1",
+        "description": "Everyone seems exciting about the competition, so let\u0027s start!",
+        "forceEnd": false,
+        "activityID": 108
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 2,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 2,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Day 2",
+        "description": "Let\u0027s continue the greatest competition that you all ever witness!",
+        "forceEnd": false,
+        "activityID": 116
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 3,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 3,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Day 3",
+        "description": "Sadly, everything has an ending. This too shall pass. Farewell to the one of a lifetime experience with this grand finale showdown!",
+        "forceEnd": false,
+        "activityID": 117
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 3,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 10,
+          "dayOfMonth": 3,
+          "hourOfDay": 23,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Award ceremony",
+        "description": "Come and celebrate our champion, the best of the best Quidditch of this tournament!",
+        "forceEnd": false,
+        "activityID": 118
+      }
+    ]
+  },
+  {
+    "scheduleID": 16,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 16,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 16,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Go shopping for brooms",
+        "description": "Join us on the biggest broom shopping trip ever! From finding the right broom to traveling to the highly anticipated Quidditch competition. Come and be a part of the preparation for riding in the sky and join in the fun in the world of magic!",
+        "forceEnd": false,
+        "activityID": 109
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 1",
+        "description": "Gathering with your fellow teammates in Professor McGonagall\u0027s office  The room is filled with the low hum of anticipation as everyone takes their seats around a large, polished table. The shelves adorned with magical trinkets and ancient books create an atmosphere of academic reverence.",
+        "forceEnd": false,
+        "activityID": 112
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 23,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 23,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Practice",
+        "description": "As they say, \"Practice Makes Perfect!\"",
+        "forceEnd": false,
+        "activityID": 119
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 2",
+        "description": "The grand doors to Dumbledore\u0027s office swing open, revealing a room bathed in warm, golden light. As you and your team enter, you\u0027re greeted by the twinkle in Professor Dumbledore\u0027s eyes and the soothing melody of a magical instrument playing in the background.",
+        "forceEnd": false,
+        "activityID": 123
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparing",
+        "description": "\"Mount your broomsticks, my dear players, and let the skies bear witness to your prowess. May the best house soar to triumph, and may those who fall, fall with the knowledge that they gave it their all.\"",
+        "forceEnd": false,
+        "activityID": 127
+      }
+    ]
+  },
+  {
+    "scheduleID": 17,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 17,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 17,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Go shopping for brooms",
+        "description": "Join us on the biggest broom shopping trip ever! From finding the right broom to traveling to the highly anticipated Quidditch competition. Come and be a part of the preparation for riding in the sky and join in the fun in the world of magic!",
+        "forceEnd": false,
+        "activityID": 110
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 1",
+        "description": "Gathering with your fellow teammates in Professor McGonagall\u0027s office  The room is filled with the low hum of anticipation as everyone takes their seats around a large, polished table. The shelves adorned with magical trinkets and ancient books create an atmosphere of academic reverence.",
+        "forceEnd": false,
+        "activityID": 113
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 24,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 24,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Practice",
+        "description": "As they say, \"Practice Makes Perfect!\"",
+        "forceEnd": false,
+        "activityID": 120
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 2",
+        "description": "The grand doors to Dumbledore\u0027s office swing open, revealing a room bathed in warm, golden light. As you and your team enter, you\u0027re greeted by the twinkle in Professor Dumbledore\u0027s eyes and the soothing melody of a magical instrument playing in the background.",
+        "forceEnd": false,
+        "activityID": 124
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparing",
+        "description": "\"Mount your broomsticks, my dear players, and let the skies bear witness to your prowess. May the best house soar to triumph, and may those who fall, fall with the knowledge that they gave it their all.\"",
+        "forceEnd": false,
+        "activityID": 128
+      }
+    ]
+  },
+  {
+    "scheduleID": 18,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 18,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 18,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Go shopping for brooms",
+        "description": "Join us on the biggest broom shopping trip ever! From finding the right broom to traveling to the highly anticipated Quidditch competition. Come and be a part of the preparation for riding in the sky and join in the fun in the world of magic!",
+        "forceEnd": false,
+        "activityID": 111
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 1",
+        "description": "Gathering with your fellow teammates in Professor McGonagall\u0027s office  The room is filled with the low hum of anticipation as everyone takes their seats around a large, polished table. The shelves adorned with magical trinkets and ancient books create an atmosphere of academic reverence.",
+        "forceEnd": false,
+        "activityID": 114
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 25,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 25,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Practice",
+        "description": "As they say, \"Practice Makes Perfect!\"",
+        "forceEnd": false,
+        "activityID": 121
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 2",
+        "description": "The grand doors to Dumbledore\u0027s office swing open, revealing a room bathed in warm, golden light. As you and your team enter, you\u0027re greeted by the twinkle in Professor Dumbledore\u0027s eyes and the soothing melody of a magical instrument playing in the background.",
+        "forceEnd": false,
+        "activityID": 125
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparing",
+        "description": "\"Mount your broomsticks, my dear players, and let the skies bear witness to your prowess. May the best house soar to triumph, and may those who fall, fall with the knowledge that they gave it their all.\"",
+        "forceEnd": false,
+        "activityID": 129
+      }
+    ]
+  },
+  {
+    "scheduleID": 19,
+    "schedule": [
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 19,
+          "hourOfDay": 9,
+          "minute": 30,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 19,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Go shopping for brooms",
+        "description": "Join us on the biggest broom shopping trip ever! From finding the right broom to traveling to the highly anticipated Quidditch competition. Come and be a part of the preparation for riding in the sky and join in the fun in the world of magic!",
+        "forceEnd": false,
+        "activityID": 106
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 20,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 1",
+        "description": "Gathering with your fellow teammates in Professor McGonagall\u0027s office  The room is filled with the low hum of anticipation as everyone takes their seats around a large, polished table. The shelves adorned with magical trinkets and ancient books create an atmosphere of academic reverence.",
+        "forceEnd": false,
+        "activityID": 115
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 26,
+          "hourOfDay": 6,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 26,
+          "hourOfDay": 20,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Practice",
+        "description": "As they say, \"Practice Makes Perfect!\"",
+        "forceEnd": false,
+        "activityID": 122
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 27,
+          "hourOfDay": 12,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Meeting act 2",
+        "description": "The grand doors to Dumbledore\u0027s office swing open, revealing a room bathed in warm, golden light. As you and your team enter, you\u0027re greeted by the twinkle in Professor Dumbledore\u0027s eyes and the soothing melody of a magical instrument playing in the background.",
+        "forceEnd": false,
+        "activityID": 126
+      },
+      {
+        "startDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 9,
+          "minute": 0,
+          "second": 0
+        },
+        "endDateTime": {
+          "year": 2023,
+          "month": 9,
+          "dayOfMonth": 31,
+          "hourOfDay": 18,
+          "minute": 0,
+          "second": 0
+        },
+        "activityName": "Preparing",
+        "description": "\"Mount your broomsticks, my dear players, and let the skies bear witness to your prowess. May the best house soar to triumph, and may those who fall, fall with the knowledge that they gave it their all.\"",
+        "forceEnd": false,
+        "activityID": 130
+      }
+    ]
+  }
+]

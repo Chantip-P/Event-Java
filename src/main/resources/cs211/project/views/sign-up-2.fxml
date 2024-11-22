@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.SignUpLastStepController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background-2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="signUpBackground" layoutX="240.0" opacity="0.95" prefHeight="540.0" prefWidth="480.0" style="-fx-background-color: eee;" />
+      <VBox fx:id="signUpVBox" alignment="CENTER" layoutX="240.0" prefHeight="540.0" prefWidth="480.0" spacing="5.0">
+         <children>
+            <Label prefHeight="54.0" prefWidth="134.0" text="Sign Up" textFill="#222831">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="75.0" spacing="15.0">
+               <children>
+                  <Circle fx:id="profileCircle" fill="#eeeeee" radius="35.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Circle>
+                  <VBox alignment="BOTTOM_LEFT" prefWidth="5.0">
+                     <children>
+                        <AnchorPane prefHeight="50.0" prefWidth="50.0">
+                           <children>
+                              <Button layoutX="-40.0" layoutY="12.5" mnemonicParsing="false" onAction="#OnBrowsePictureClick" prefHeight="37.5" prefWidth="45.0" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <Circle fx:id="iconCameraCircle" fill="#eeeeee" radius="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefWidth="235.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Label prefWidth="105.0" text="First Name" textFill="#222831">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="firstNameLabel" text="firstNameLabel" textFill="#222831">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefWidth="200.0">
+                           <children>
+                              <Label prefWidth="105.0" text="Last Name" textFill="#222831">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="lastNameLabel" text="lastNameLabel" textFill="#222831">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefWidth="200.0">
+               <children>
+                  <Label prefWidth="130.0" text="Username" textFill="#222831">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="usernameLabel" text="usernameLabel" textFill="#222831">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="-10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="-3.5" top="-3.5" />
+               </padding>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Password" textFill="#222831">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="9.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <PasswordField fx:id="passwordField" onKeyPressed="#onConfirmByPressEnter" prefHeight="38.0" prefWidth="390.0" promptText="Enter Password" styleClass="transparent">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+               <styleClass>
+                  <String fx:value="wrap-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label fx:id="errorPasswordLabel" text="errorPasswordLabel" textFill="RED">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="-3.0" />
+               </padding>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Confirm Password" textFill="#222831">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="-3.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <PasswordField fx:id="confirmPasswordField" onKeyPressed="#onConfirmByPressEnter" prefHeight="38.0" prefWidth="390.0" promptText="Confirm Password" styleClass="transparent">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+               <styleClass>
+                  <String fx:value="wrap-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label fx:id="errorConfirmPasswordLabel" text="errorConfirmPasswordLabel" textFill="RED">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="-3.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" spacing="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onBackClick" prefHeight="38.0" prefWidth="90.0" styleClass="transparent" text="Back">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+                           <image>
+                              <Image url="@../../../images/icon-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onConfirmClick" prefHeight="38.0" prefWidth="100.0" styleClass="primary-button" text="Confirm" textFill="#eeeeee">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="-5.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="45.0" right="45.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="BOTTOM_RIGHT" layoutX="720.0" layoutY="514.0" opacity="0.75" prefHeight="26.0" prefWidth="240.0" style="-fx-background-color: white;" />
+      <VBox alignment="BOTTOM_RIGHT" layoutX="718.0" layoutY="506.0" prefHeight="36.0" prefWidth="240.0">
+         <children>
+            <Label text="Image Generated By Tome.app" textFill="#222831">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

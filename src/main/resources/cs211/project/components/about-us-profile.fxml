@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="profileBackground" alignment="CENTER_LEFT" prefHeight="300.0" prefWidth="160.0" styleClass="context-box" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.components.AboutUsProfileController">
+   <children>
+      <Circle fx:id="profileCircle" fill="#eeeeee" radius="75.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <VBox.margin>
+            <Insets left="5.0" top="5.0" />
+         </VBox.margin>
+      </Circle>
+      <Label styleClass="primary-text" text="Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="nameLabel" styleClass="primary-text" text="nameLabel" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label styleClass="primary-text" text="Student ID">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="studentIDLabel" styleClass="primary-text" text="studentIDLabel">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+   </children>
+</VBox>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.LoginController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background-1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane opacity="0.95" prefHeight="540.0" prefWidth="480.0" style="-fx-background-color: eee;" />
+      <VBox alignment="CENTER" prefHeight="540.0" prefWidth="480.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" text="Log In" textFill="#222831">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="419.0">
+               <children>
+                  <Label text="Username" textFill="#222831">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <TextField fx:id="usernameTextField" onKeyPressed="#onLoginByPressEnter" prefHeight="38.0" prefWidth="390.0" promptText="Enter Username" styleClass="transparent">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <styleClass>
+                  <String fx:value="wrap-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="419.0">
+               <children>
+                  <Label text="Password" textFill="#222831">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <PasswordField fx:id="passwordField" onKeyPressed="#onLoginByPressEnter" prefHeight="38.0" prefWidth="390.0" promptText="Enter Password" styleClass="transparent">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+               <styleClass>
+                  <String fx:value="wrap-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="419.0">
+               <children>
+                  <Label fx:id="errorLabel" text="errorLabel" textFill="RED">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="200.0" spacing="150.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onLogInClick" prefHeight="38.0" prefWidth="120.0" styleClass="primary-button" text="Log In" textFill="#eeeeee">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="45.0" right="45.0" />
+         </padding>
+      </VBox>
+      <AnchorPane fx:id="signUpBackground" layoutX="522.5" layoutY="20.0" opacity="0.95" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #222831;" />
+      <VBox fx:id="signUpVBox" alignment="CENTER" layoutX="480.0" prefHeight="540.0" prefWidth="480.0" spacing="10.0">
+         <children>
+            <Label text="OK Event" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label text="&quot;It's OK, Let's Have Some Fun!&quot;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label prefWidth="320.0" text="OK Event is a event booking and tracking application that has been curated by a group of 4 university students.&#10;This project is a part of CS211 course.&#10;" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label text="Don't Have An Account?" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets top="25.0" />
+               </padding>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#onSignUpClick" prefHeight="38.0" prefWidth="120.0" style="-fx-border-color: white;" styleClass="secondary-button" textFill="#222831">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="719.0" layoutY="521.0" opacity="0.75" prefHeight="19.0" prefWidth="240.0" style="-fx-background-color: eee;" />
+      <Label layoutX="725.0" layoutY="516.0" text="Image Generated By Tome.app" textFill="#222831">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

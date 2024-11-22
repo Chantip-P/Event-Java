@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane styleClass="primary-color" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.components.TopbarController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="160.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="320.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="80.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </HBox>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+         <children>
+            <Button fx:id="profileButton" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#onProfileClick" text="displayName" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets top="-1.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <Circle fx:id="profileCircle" fill="#eeeeee" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+               </graphic>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="primary-text" />
+                  <String fx:value="tool-bar-button" />
+               </styleClass>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onLogoutClick" prefWidth="60.0" styleClass="secondary-button" text="Logout" textFill="#021d3d" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets top="-1.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+         <styleClass>
+            <String fx:value="transparent" />
+            <String fx:value="primary-color" />
+         </styleClass>
+      </AnchorPane>
+   </children>
+</GridPane>

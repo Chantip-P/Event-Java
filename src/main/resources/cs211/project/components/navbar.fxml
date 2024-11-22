@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="5.0" styleClass="toolbar-color" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs211.project.controllers.components.NavbarController">
+   <children>
+      <Label text="Join Event" textFill="#eeeeee">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#onSearchEventClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="Search Event" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-search-event.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onMyEventClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="My Event" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-my-event.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+      <Label text="Event Management" textFill="#eeeeee">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#onCreateEventClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="Create Event" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-create-event.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onEditEventClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="Edit Event" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-edit-event.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+      <Label text="Information" textFill="#eeeeee">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#onAboutUsClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="About Us" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-about-us.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onManualClick" prefHeight="24.0" style="-fx-background-color: TRANSPARENT;" styleClass="tool-bar-button" text="Manual" textFill="#eeeeee">
+         <padding>
+            <Insets top="-1.0" />
+         </padding>
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/icon-manual.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <VBox.margin>
+            <Insets left="30.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

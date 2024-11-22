@@ -1,0 +1,52 @@
+.primary-color{
+    -fx-background-color: #eeeeee;
+}
+
+.secondary-color{
+    -fx-background-color: #011D3F;
+}
+
+.primary-text{
+    -fx-text-fill: #011D3F;
+}
+
+.toolbar-color {
+    -fx-background-color: #011D3F;
+}
+
+.context-box{
+    -fx-background-color: white;
+    -fx-border-radius: 14;
+}
+
+.secondary-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #011D3F;
+    -fx-border-color: #011D3F;
+}
+
+.secondary-button:hover{
+    -fx-background-color: #626975;
+    -fx-text-fill: white;
+    -fx-border-color:#626975;
+}
+
+
+.tab-pane .tab-header-area {
+    -fx-border-color: #d4d4d4;
+    -fx-border-width: 0 0 1 0;
+}
+
+.tab-pane .tab{
+    -fx-background-color: #eeeeee;
+    -fx-text-base-color: #011D3F;
+}
+
+.tab-pane .tab:selected{
+    -fx-background-color: white;
+    -fx-text-fill: #011D3F;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: #eeeeee;
+}

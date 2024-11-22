@@ -1,0 +1,14 @@
+[
+  {
+    "userID": 12,
+    "comment": "The driver said that he will be late for five minutes due to some road accident"
+  },
+  {
+    "userID": 12,
+    "comment": "I think that won\u0027t delay our plan though"
+  },
+  {
+    "userID": 23,
+    "comment": "It\u0027s been 10 minutes, please contact the bus driver again"
+  }
+]

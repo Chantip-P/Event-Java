@@ -1,0 +1,380 @@
+[
+  {
+    "teamID": 0,
+    "teamName": "Transportation Team",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 17,
+      "minute": 30,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 17,
+      "minute": 30,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      10,
+      12,
+      13
+    ],
+    "maximumMember": 3,
+    "scheduleID": 1
+  },
+  {
+    "teamID": 1,
+    "teamName": "Hotel Reservation Team",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 17,
+      "minute": 30,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 17,
+      "minute": 30,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      13,
+      12
+    ],
+    "maximumMember": 2,
+    "scheduleID": 2
+  },
+  {
+    "teamID": 2,
+    "teamName": "Restaurant Reservation Team",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 20,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 10,
+      "hourOfDay": 22,
+      "minute": 0,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      10,
+      21
+    ],
+    "maximumMember": 2,
+    "scheduleID": 3
+  },
+  {
+    "teamID": 3,
+    "teamName": "Guidance Team",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 20,
+      "minute": 40,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 22,
+      "minute": 30,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      21,
+      13
+    ],
+    "maximumMember": 3,
+    "scheduleID": 4
+  },
+  {
+    "teamID": 4,
+    "teamName": "Scranton",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 22,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 18,
+      "minute": 0,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      3,
+      5,
+      8,
+      14,
+      17,
+      18,
+      19
+    ],
+    "maximumMember": 7,
+    "scheduleID": 6
+  },
+  {
+    "teamID": 5,
+    "teamName": "Utica",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 9,
+      "hourOfDay": 22,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 18,
+      "minute": 0,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      8,
+      16,
+      19,
+      20
+    ],
+    "maximumMember": 4,
+    "scheduleID": 7
+  },
+  {
+    "teamID": 6,
+    "teamName": "Supervisor",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 2,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 6,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      38,
+      40,
+      43
+    ],
+    "maximumMember": 4,
+    "scheduleID": 9
+  },
+  {
+    "teamID": 7,
+    "teamName": "Construction Supervisor",
+    "startDateTime": {
+      "year": 2023,
+      "month": 6,
+      "dayOfMonth": 3,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 6,
+      "dayOfMonth": 7,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      44,
+      46,
+      47
+    ],
+    "maximumMember": 5,
+    "scheduleID": 11
+  },
+  {
+    "teamID": 8,
+    "teamName": "Watcher",
+    "startDateTime": {
+      "year": 2023,
+      "month": 8,
+      "dayOfMonth": 4,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 8,
+      "dayOfMonth": 8,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      32,
+      30,
+      44
+    ],
+    "maximumMember": 3,
+    "scheduleID": 12
+  },
+  {
+    "teamID": 9,
+    "teamName": "Cooking",
+    "startDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 23,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2022,
+      "month": 11,
+      "dayOfMonth": 23,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [
+      25,
+      26,
+      27
+    ],
+    "maximumMember": 3,
+    "scheduleID": 14
+  },
+  {
+    "teamID": 10,
+    "teamName": "Gryffindor",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 31,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [],
+    "maximumMember": 7,
+    "scheduleID": 16
+  },
+  {
+    "teamID": 11,
+    "teamName": "Hufflepuff",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 31,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [],
+    "maximumMember": 7,
+    "scheduleID": 17
+  },
+  {
+    "teamID": 12,
+    "teamName": "Ravenclaw",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 31,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [],
+    "maximumMember": 7,
+    "scheduleID": 18
+  },
+  {
+    "teamID": 13,
+    "teamName": "Slytherin",
+    "startDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 12,
+      "hourOfDay": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "endDateTime": {
+      "year": 2023,
+      "month": 9,
+      "dayOfMonth": 31,
+      "hourOfDay": 23,
+      "minute": 59,
+      "second": 0
+    },
+    "availability": "AVAILABLE",
+    "memberIDList": [],
+    "maximumMember": 7,
+    "scheduleID": 19
+  }
+]

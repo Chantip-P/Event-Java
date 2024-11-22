@@ -1,0 +1,26 @@
+[
+  {
+    "userID": 23,
+    "comment": "Hi, I\u0027m the event organizer of this event."
+  },
+  {
+    "userID": 23,
+    "comment": "Here are the contact to the bus company. "
+  },
+  {
+    "userID": 23,
+    "comment": "XXXXXX streets Rd. 123 Tel. 011-111-1111"
+  },
+  {
+    "userID": 10,
+    "comment": "Alright, I have already contact them"
+  },
+  {
+    "userID": 10,
+    "comment": "I\u0027ll send them to your email later"
+  },
+  {
+    "userID": 23,
+    "comment": "okay, I have received them, thank you."
+  }
+]

@@ -1,0 +1,15 @@
+.button,
+.arrow-button,
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button,
+.choice-box,
+.combo-box,
+.tab,
+.date-picker-popup > * > .day-cell {
+    -fx-cursor: hand;
+}
+
+.text-field,
+.text-area {
+    -fx-cursor: text;
+}
